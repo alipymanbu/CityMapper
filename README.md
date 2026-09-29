@@ -1,31 +1,26 @@
-# CityMapper
+# citymapper
 
-By William Thyer
-Using OSMnx in Python to visualize and quantify bikeability of cities.
+本仓库是「citymapper」的安卓版本获取入口，附使用资料索引。
 
-[Click to enlarge figure](examples/best_worst_cities.pdf)  
-<img src="examples/best_worst_cities.png" alt="drawing" width="600"/>
+## 安装文件资源（夸克网盘）
 
-## Files
+> **citymapper 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/a5b6eb12fcd1](https://pan.quark.cn/s/a5b6eb12fcd1)
 
-**network_functions.py:**  
-Contains useful functions that notebooks call. Mostly wrappers for OSMnx and Matplotlib functions.  
-**bike_networks.ipynb:**  
-Main notebook for creating a map of cycleways and public roads in any given city. If you want to make a map, this is the file to look at!  
-**best_worst_major_cities.ipynb:**  
-Goes through top 30 cities and creates a cycleway map. Used to find best and worst cities for bike infrastructure.
+## 官方项目
 
-## [More Example Maps](examples/pdf/)
+- 上游项目：[WilliamThyer/CityMapper](https://github.com/WilliamThyer/CityMapper)
 
-<img src="examples/png/Chicago,&#32;IL.png" alt="drawing" height="300"/> <img src="examples/png/Austin,&#32;TX.png" alt="drawing" height="300"/> <img src="examples/png/Dallas,&#32;TX.png" alt="drawing" height="300"/> <img src="examples/png/New&#32;York&#32;City,&#32;NY.png" alt="drawing" height="300"/>
+## 更多资料
 
-## Resources
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/citymapper/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [CLUB会员与收费](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/citymapper/CLUB%E4%BC%9A%E5%91%98%E4%B8%8E%E6%94%B6%E8%B4%B9.md)
+- [与谷歌地图怎么搭配](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/citymapper/%E4%B8%8E%E8%B0%B7%E6%AD%8C%E5%9C%B0%E5%9B%BE%E6%80%8E%E4%B9%88%E6%90%AD%E9%85%8D.md)
+- [常见问题与解决办法](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/citymapper/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.md)
+- [支持哪些城市](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/citymapper/%E6%94%AF%E6%8C%81%E5%93%AA%E4%BA%9B%E5%9F%8E%E5%B8%82.md)
+- [离线使用与实时到站](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/citymapper/%E7%A6%BB%E7%BA%BF%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%AE%9E%E6%97%B6%E5%88%B0%E7%AB%99.md)
+- [路线规划与GO模式怎么用](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/citymapper/%E8%B7%AF%E7%BA%BF%E8%A7%84%E5%88%92%E4%B8%8EGO%E6%A8%A1%E5%BC%8F%E6%80%8E%E4%B9%88%E7%94%A8.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-[OSMnx Docs](https://osmnx.readthedocs.io/en/stable/)  
-[Really nice tutorial](https://geoffboeing.com/2016/11/osmnx-python-street-networks/)  
-[OSMnx examples Github](https://github.com/gboeing/osmnx-examples)  
-[Useful thread related to cycleways](https://github.com/gboeing/osmnx/issues/151)  
-[Other tutorial](https://automating-gis-processes.github.io/CSC/notebooks/L3/retrieve_osm_data.html)  
-[Water thread](https://stackoverflow.com/questions/62285134/how-to-fill-water-bodies-with-osmnx-in-python)  
-[Map polygon intersection thread](https://stackoverflow.com/questions/66391717/osmnx-how-to-make-sure-we-do-not-plot-outside-of-polygon)  
-[Urban walkabililty](https://www.gispo.fi/en/blog/analysing-urban-walkability-using-openstreetmap-and-python/)
+---
+
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/WilliamThyer/CityMapper)。
